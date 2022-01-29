@@ -1,0 +1,65 @@
+*
+{
+    background-color:rgb(49, 46, 46)
+}
+p{
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    margin-top: 5% 0% 1%;
+    
+}
+.container
+{
+  max-width: 300px;
+  margin:auto ;
+  padding: auto;
+  text-align: center;
+  border: black;
+ box-shadow: 2px black;
+  border: 1px solid black;
+  
+  
+}
+#display
+{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: white;
+}
+.buttens
+{
+    display: grid;
+    border-bottom: 1px solid #999;
+        border-left: 1px solid #999;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.butten{
+    border:.5px solid #999;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+}
+.butten:hover
+{
+    background-color: rgb(15, 47, 73);
+    color: white;
+    transition:0.5s ease-in-out;
+}
+#clear
+{
+    background-color: rgb(189, 50, 50);
+    color: white;
+    display: grid;
+
+}
+#eqal
+{
+    background-color: rgb(41, 95, 41);
+    color: white;
+}
